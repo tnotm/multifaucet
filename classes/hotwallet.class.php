@@ -17,7 +17,12 @@ class HotWallet implements Wallet {
 		return $balance;
 	}
 	public function sendtoaddress($address, $amount){
-		return $this->rpc_call("sendtoaddress",array((string)$address, (float)$amount));
+		// XCN update, change 0.00 float to string "X.XX00000000ep"
+		// precision must be set to 2
+		$quotes='"';
+                $xcn_amount_postfix = "00000000ep";
+                $xcnamount = "$amount$xcn_amount_postfix";
+		return $this->rpc_call("sendtoaddress",array((string)$address, (string)$xcnamount));
 	}
 	public function test(){
 		return $this->rpc_call("getinfo");

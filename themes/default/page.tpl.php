@@ -6,6 +6,7 @@
 	<meta name="author" content="tuaris" />
 	<link rel="stylesheet" href="<?php echo theme_dir(); ?>css/default.css" type="text/css" />
 	<title><?php print($title); ?></title>
+	<link rel="icon" type="image/png" href="./favicon.png" />
 </head>
 <body>
 	<div id="wrapper">

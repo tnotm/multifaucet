@@ -4,10 +4,10 @@
 *
 */
 class AppDB extends mysqli {
-    private static $instance;
+    public static $instance;
 	public $TB_PRFX = TB_PRFX;
 
-    final private function __construct() {
+    final public function __construct() {
         parent::init();
 
         if (!parent::options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {

@@ -83,25 +83,25 @@ div.container input:last-child{
 }
 
 div.container input[type="submit"]{
-	background-color: #ffff00;
+	background-color: #24B001;
 	box-shadow: inset 0px -1px 4px #dddd00;
-	border: 1px solid #cccc00;
+	border: 1px solid #1a6707;
 	font-weight: bold;
 	/*color: #fff;
 	text-shadow: 0px 0px 2px #000;*/
 }
 
 div.container input[type="submit"]:hover{
-	background-color: #ffff66;
+	background-color: #259c07;
 	box-shadow: inset 0px -1px 4px #dddd00;
-	border: 1px solid #cccc00;
+	border: 1px solid #1a6707;
 	font-weight: bold;
 }
 
 div.container input[type="submit"]:active{
-	background-color: #f4f400;
+	background-color: #59ea36;
 	box-shadow: inset 0px 1px 4px #cccc00;
-	border: 1px solid #cccc00;
+	border: 1px solid #1a6707;
 	font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ form #captcha.recaptcha #recaptcha_area{
 }
 
 h1{
-	color: #fff;
+	color: #248a0a;
 	font-weight: bold;
 	font-size: 2em;
 	padding: 2em 0 .2em .5em;
@@ -138,7 +138,7 @@ p.error{
 p.big{
 	font-size: 1.2em;
 	font-weight: bold;
-	color: #bbbb00;
+	color: #248a0a;
 }
 
 .installer p{
@@ -163,7 +163,7 @@ p.big{
 	padding: 0 1.2em;
 }
 #poweredby a{
-	color: #999000;
+	color: #248a0a;
 }
 
 img.droplet{
