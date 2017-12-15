@@ -1,3 +1,11 @@
+XCN Fork of MutiFaucet v0.8.3
+=============================
+This is a simple fork of MultiFaucet for the express use with Cryptonite(XCN) cryptocurreny only.
+
+All rights reserved to the original creator.
+
+All instructions below remain the same, and sample XCN wallet config is supplied.
+
 MutiFaucet v0.8.3
 =================
 Copyright 2014 by The Daniel Morante Company, Inc.
